@@ -1,26 +1,26 @@
-# IT Support Guide | دليل الاستخدام | IT-Leitfaden 📚
-
-<div dir="rtl">
-
-## 🌍 اللغات المدعومة
-هذا المستودع يدعم ثلاث لغات لضمان وصول الفائدة لجميع المهندسين في الوطن العربي وألمانيا.
+# IT Support Hub | مركز الدعم التقني | IT-Support-Zentrum 🛠️
 
 ---
 
-## 💻 متطلبات النظام (System Requirements)
-1. **Windows Cleanup Script:** يتطلب صلاحيات المسؤول (Administrator).
-2. **Recovery ISO:** يحتاج فلاشة USB بسعة 4 جيجا على الأقل.
+## 💻 System Requirements / متطلبات النظام / Systemvoraussetzungen
+
+### 1. Windows Cleanup Script
+* **EN:** PowerShell 5.1+, Administrator Privileges.
+* <div dir="rtl">**AR:** إصدار PowerShell 5.1 أو أحدث، صلاحيات المسؤول.</div>
+* **DE:** PowerShell 5.1+, Administratorrechte erforderlich.
+
+### 2. Recovery ISO v1.0
+* **EN:** 2GB RAM minimum, USB Boot Support (UEFI/Legacy).
+* <div dir="rtl">**AR:** ذاكرة رام 2 جيجابايت كحد أدنى، دعم الإقلاع من USB بنظام (UEFI أو Legacy).</div>
+* **DE:** Mindestens 2 GB RAM, USB-Boot-Unterstützung (UEFI/Legacy).
 
 ---
 
-## 📊 جدول المقارنة
-| الأداة | اللغة | الوظيفة | النظام |
-| :--- | :---: | :--- | :---: |
-| Cleanup | PS | تسريع | Win 10/11 |
-| ISO | ISO | إصلاح | All |
+## 🛠️ Key Tools / الأدوات الرئيسية / Hauptwerkzeuge
 
-</div>
+### 1. Windows Cleanup Script:
+* **EN:** Deletes temp files and optimizes performance.
+* <div dir="rtl">**AR:** يقوم بحذف الملفات المؤقتة ويحسن أداء النظام بشكل ملحوظ.</div>
+* **DE:** Löscht temporäre Dateien und optimiert die Leistung.
 
 ---
-## 🇩🇪 Deutsche Kurzanleitung
-Alle Skripte sind für Windows 10/11 optimiert. Bitte als Administrator ausführen.
