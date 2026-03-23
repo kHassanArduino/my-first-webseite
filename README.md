@@ -1,26 +1,28 @@
-# IT Support Guide | دليل الاستخدام | IT-Leitfaden 📚
+# IT Support Hub | مركز الدعم التقني 🛠️
 
-<div dir="rtl">
+<div dir="rtl" style="text-align: right;">
 
-## 🌍 اللغات المدعومة
-هذا المستودع يدعم ثلاث لغات لضمان وصول الفائدة لجميع المهندسين في الوطن العربي وألمانيا.
+## 🌍 نظرة عامة
+مرحباً بك في مستودع الأدوات التقنية. هذا المشروع مخصص لمهندسي تكنولوجيا المعلومات لتوفير الوقت والجهد في صيانة الأنظمة.
 
----
-
-## 💻 متطلبات النظام (System Requirements)
-1. **Windows Cleanup Script:** يتطلب صلاحيات المسؤول (Administrator).
-2. **Recovery ISO:** يحتاج فلاشة USB بسعة 4 جيجا على الأقل.
-
----
-
-## 📊 جدول المقارنة
+### 📋 جدول المقارنة (Comparison)
 | الأداة | اللغة | الوظيفة | النظام |
 | :--- | :---: | :--- | :---: |
-| Cleanup | PS | تسريع | Win 10/11 |
-| ISO | ISO | إصلاح | All |
+| Cleanup | PowerShell | تسريع النظام | Windows 10/11 |
+| Recovery | ISO | إصلاح الإقلاع | All Systems |
+
+---
+
+## 💻 متطلبات التشغيل (Requirements)
+* **سكربت التنظيف:** يتطلب تشغيله بصلاحيات **مسؤول النظام (Administrator)**.
+* **أسطوانة الإصلاح:** تتطلب فلاشة USB لا تقل عن **4 جيجابايت**.
 
 </div>
 
 ---
-## 🇩🇪 Deutsche Kurzanleitung
-Alle Skripte sind für Windows 10/11 optimiert. Bitte als Administrator ausführen.
+
+## 🇩🇪 Kurzinfo (Deutsch)
+Dies ist ein Repository für IT-Wartungstools. Alle Skripte sollten als Administrator ausgeführt werden.
+
+## 🇺🇸 Quick Info (English)
+Professional IT maintenance tools. Please run scripts with Administrator privileges for full functionality.
