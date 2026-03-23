@@ -10,14 +10,13 @@
             --primary: #00d4ff;
             --dark-bg: #0f172a;
             --card-bg: #1e293b;
-            --text-main: #e2e8f0;
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: var(--dark-bg);
-            color: var(--text-main);
+            color: #e2e8f0;
             margin: 0; padding: 0;
-            line-height: 1.6;
+            text-align: right;
         }
         header {
             background: linear-gradient(135deg, #1e293b, #0f172a);
@@ -25,17 +24,18 @@
             text-align: center;
             border-bottom: 2px solid var(--primary);
         }
-        .readme-link {
+        .readme-btn {
             display: inline-block;
-            margin-top: 15px;
+            margin-top: 20px;
+            padding: 10px 25px;
             color: var(--primary);
+            border: 2px solid var(--primary);
             text-decoration: none;
-            border: 1px solid var(--primary);
-            padding: 8px 20px;
-            border-radius: 25px;
+            border-radius: 30px;
+            font-weight: bold;
             transition: 0.3s;
         }
-        .readme-link:hover {
+        .readme-btn:hover {
             background: var(--primary);
             color: var(--dark-bg);
         }
@@ -55,62 +55,65 @@
         .card:hover { transform: translateY(-10px); border-color: var(--primary); }
         .card h3 { color: var(--primary); display: flex; align-items: center; gap: 10px; }
         .file-info {
-            display: flex; justify-content: space-between;
-            font-size: 13px; color: #94a3b8;
-            margin: 15px 0; padding-top: 10px; border-top: 1px solid #334155;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            color: #94a3b8;
+            margin: 15px 0;
+            padding-top: 10px;
+            border-top: 1px solid #334155;
+            direction: ltr;
         }
         .btn {
-            display: block; background: var(--primary); color: #0f172a;
-            padding: 12px; text-align: center; text-decoration: none;
-            border-radius: 8px; font-weight: bold;
+            display: block;
+            background: var(--primary);
+            color: #0f172a;
+            padding: 12px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
         }
-        .rtl-text { direction: rtl; text-align: right; }
     </style>
 </head>
 <body>
 
 <header>
-    <i class="fas fa-user-shield" style="font-size: 50px; color: var(--primary);"></i>
-    <h1>مركز الدعم التقني kHassan 🛠️</h1>
-    <p>أدوات صيانة وسكربتات موجهة لخبراء تكنولوجيا المعلومات</p>
+    <i class="fas fa-terminal" style="font-size: 50px; color: var(--primary);"></i>
+    <h1>مركز كمال للدعم التقني 🛠️</h1>
+    <p>مكتبة السكربتات المتقدمة وأدوات الصيانة (English - Arabic - Deutsch)</p>
     
-    <a href="https://github.com/kHassanArduino/meine-erste-Webseite/blob/main/README.md" class="readme-link" target="_blank">
-        <i class="fas fa-book"></i> عرض دليل الاستخدام (Markdown)
+    <a href="https://github.com/khassanarduino/my-first-webseite/blob/main/README.md" class="readme-btn" target="_blank">
+        <i class="fas fa-book-open"></i> دليل الاستخدام (README)
     </a>
 </header>
 
 <div class="container">
     <div class="grid">
-        
         <div class="card">
             <h3><i class="fas fa-compact-disc"></i> أسطوانة الإصلاح v1.0</h3>
-            <div class="rtl-text">
-                <p>أسطوانة إقلاع شاملة لإصلاح القرص الصلب وتغيير كلمات مرور الويندوز المنقية.</p>
-            </div>
+            <p>أداة إقلاع شاملة لفحص العتاد واستعادة النظام المنهار.</p>
             <div class="file-info">
                 <span><i class="fas fa-database"></i> 850 MB</span>
-                <span><i class="fas fa-check-circle"></i> متطلبات: 2GB RAM</span>
+                <span><i class="fas fa-calendar"></i> 2026-03-23</span>
             </div>
-            <a href="رابط_التحميل_من_RELEASES" class="btn"><i class="fas fa-download"></i> تحميل ISO</a>
+            <a href="#" class="btn">تحميل الملف</a>
         </div>
 
         <div class="card">
-            <h3><i class="fas fa-terminal"></i> سكربت تنظيف النظام</h3>
-            <div class="rtl-text">
-                <p>سكربت PowerShell لتنظيف الملفات المؤقتة وتسريع إقلاع الويندوز بضغطة واحدة.</p>
-            </div>
+            <h3><i class="fas fa-code"></i> سكربت تنظيف الويندوز</h3>
+            <p>سكربت PowerShell لتسريع النظام وحذف الملفات المؤقتة آلياً.</p>
             <div class="file-info">
                 <span><i class="fas fa-file-code"></i> 15 KB</span>
-                <span><i class="fas fa-terminal"></i> يتطلب: Administrator</span>
+                <span><i class="fas fa-terminal"></i> PS Script</span>
             </div>
-            <a href="رابط_التحميل_من_RELEASES" class="btn"><i class="fas fa-download"></i> تحميل السكربت</a>
+            <a href="#" class="btn">تحميل السكربت</a>
         </div>
-
     </div>
 </div>
 
 <footer style="text-align: center; padding: 40px; color: #64748b; border-top: 1px solid #334155;">
-    <p>© 2026 kHassan IT Hub | مختبرات Arduino والبرمجة</p>
+    <p>© 2026 kHassanArduino | تم التطوير بكل فخر</p>
 </footer>
 
 </body>
